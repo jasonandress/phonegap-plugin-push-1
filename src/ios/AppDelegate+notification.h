@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 // #import "Hotline.h"
-#import "Freshchat.h"
+#import "FreshchatSDK/FreshchatSDK.h"
 @interface AppDelegate (notification)
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken;
 - (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error;

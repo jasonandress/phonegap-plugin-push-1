@@ -9,8 +9,7 @@
 #import "AppDelegate+notification.h"
 #import "PushPlugin.h"
 #import <objc/runtime.h>
-// #import "Hotline.h"
-#import "Freshchat.h"
+#import "FreshchatSDK/FreshchatSDK.h"
 
 static char launchNotificationKey;
 static char coldstartKey;
