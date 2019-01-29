@@ -67,7 +67,7 @@ public class GCMIntentService extends GcmListenerService implements PushConstant
 
         if (extras != null) {
             if(Freshchat.isFreshchatNotification(extras)){
-                Freshchat.getInstance(getApplicationContext()).handleGcmMessage(extras);
+                Freshchat.getInstance(getApplicationContext()).handleFcmMessage(getApplicationContext(),extras);
                 return;
             }
             Context applicationContext = getApplicationContext();
